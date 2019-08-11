@@ -51,59 +51,11 @@ If the number is a multiple of both 3 and 7, it prints "JugsPugs".
 If the number is a multiple of both 5 and 7, it prints "MugsPugs".
 If the number is a multiple of both 3, 5 and 7, it prints "JugsMugsPugs".
 Otherwise, it prints the number.](day020.md)
-21) [Write a program that receives a number on the input.
-- If the number is a multiple of 3, or it contains digit 3, it prints "Jugs".
-- If the number is a multiple of 5, or it contains digit 5, it prints "Mugs".
-- If the number is a multiple of 7, or it contains digit 7, it prints "Pugs".
-Otherwise, it prints the number.](day021.md)
+21) [Write a program that receives a number on the input.If the number is a multiple of 3, or it contains digit 3, it prints "Jugs".If the number is a multiple of 5, or it contains digit 5, it prints "Mugs".If the number is a multiple of 7, or it contains digit 7, it prints "Pugs".Otherwise, it prints the number.](day021.md)
 22) [JugsMugsPugs LITE
-Write a program that receives a number on the input.
-- If the number is a multiple of 3, it prints "Jugs".
-- If the number is a multiple of 5, it prints "Mugs".
-- If the number is a multiple of 7, it prints "Pugs".
-- If the number is a multiple of both 3 and 5, it prints "JugsMugs".
-- If the number is a multiple of both 3 and 7, it prints "JugsPugs".
-- If the number is a multiple of both 5 and 7, it prints "MugsPugs".
-- If the number is a multiple of both 3, 5 and 7, it prints "JugsMugsPugs".
-Otherwise, it prints the number.](day022.md)
-23) [JugsMugsPugsPlus and Reverse
-Write a program that receives a number on the input.
-It also should receive another boolean value 'rev' on the input.
-- If the number is a multiple of 3, or it contains digit 3, it prints "Jugs".
-- If the number is a multiple of 5, or it contains digit 5, it prints "Mugs".
-- If the number is a multiple of 7, or it contains digit 7, it prints "Pugs".
-- If the number is a multiple of both 3 and 5, it prints "JugsMugs".
-- also if number contains 3 and 5, it prints "JugsMugs"
-- If the number is a multiple of both 3 and 7, it prints "JugsPugs".
-- also if number contains 3 and 7, it prints "JugsPugs"
-- If the number is a multiple of 3, 5 and 7, it prints "JugsMugPugs".
-- also if number contains 3, 5 and 7, it prints "JugsMugsPugs"
-Otherwise, it prints the number.
-REVERSE REQUIREMENT:
-If the boolean 'rev' is True, then reverse the order of printing.
-- "PugsJugsMugs" for multiples of 3, 5 and 7
-- "PugsMugs" for multiple of 3 and 7
-- "MugsJugs" for multiple of 3 and 5
-- "PugsJugs" for multiple of 5 and 7](day023.md)
-24) [JugsMugsPugsPlusReverse Range
-- Write a program that receives a number on the input and prints values from 1 to
-that number subjected to the conditions below.
-- It also should receive another boolean value 'rev' on the input.
-For every number in the given range,
-- If the number is a multiple of 3, or it contains digit 3, it prints "Jugs".
-- If the number is a multiple of 5, or it contains digit 5, it prints "Mugs".
-- If the number is a multiple of 7, or it contains digit 7, it prints "Pugs".
-- If the number is a multiple of both 3 and 5, it prints "JugsMugs".
-- also if number contains 3 and 5, it prints "JugsMugs"
-- If the number is a multiple of both 3 and 7, it prints "JugsPugs".
-- also if number contains 3 and 7, it prints "JugsPugs"
-- If the number is a multiple of 3, 5 and 7, it prints "JugsMugsPugs".
-- also if number contains 3, 5 and 7, it prints "JugsMugsPugs"
-Otherwise, it prints the number.
-REVERSE REQUIREMENT:
-If the boolean 'rev' is True, then reverse the order of printing.
-- "PugsJugsMugs" for multiples of 3, 5 and 7
-- "PugsMugs" for multiple of 3 and 7
-- "MugsJugs" for multiple of 3 and 5
-- "PugsJugs" for multiple of 5 and 7](day024.md)
+Write a program that receives a number on the input.If the number is a multiple of 3, it prints "Jugs".If the number is a multiple of 5, it prints "Mugs".If the number is a multiple of 7, it prints "Pugs".If the number is a multiple of both 3 and 5, it prints "JugsMugs".If the number is a multiple of both 3 and 7, it prints "JugsPugs".If the number is a multiple of both 5 and 7, it prints "MugsPugs".If the number is a multiple of both 3, 5 and 7, it prints "JugsMugsPugs".Otherwise, it prints the number.](day022.md)
+23) [JugsMugsPugsPlus and Reverse.Write a program that receives a number on the input.
+It also should receive another boolean value 'rev' on the input.If the number is a multiple of 3, or it contains digit 3, it prints "Jugs".If the number is a multiple of 5, or it contains digit 5, it prints "Mugs".If the number is a multiple of 7, or it contains digit 7, it prints "Pugs".If the number is a multiple of both 3 and 5, it prints "JugsMugs".also if number contains 3 and 5, it prints "JugsMugs"If the number is a multiple of both 3 and 7, it prints "JugsPugs".also if number contains 3 and 7, it prints "JugsPugs"If the number is a multiple of 3, 5 and 7, it prints "JugsMugPugs".also if number contains 3, 5 and 7, it prints "JugsMugsPugs.Otherwise, it prints the number.REVERSE REQUIREMENT:If the boolean 'rev' is True, then reverse the order of printing."PugsJugsMugs" for multiples of 3, 5 and 7"PugsMugs" for multiple of 3 and 7"MugsJugs" for multiple of 3 and 5"PugsJugs" for multiple of 5 and 7](day023.md)
+24) [JugsMugsPugsPlusReverse RangeWrite a program that receives a number on the input and prints values from 1 to
+that number subjected to the conditions below.It also should receive another boolean value 'rev' on the input.For every number in the given range,If the number is a multiple of 3, or it contains digit 3, it prints "Jugs".If the number is a multiple of 5, or it contains digit 5, it prints "Mugs".If the number is a multiple of 7, or it contains digit 7, it prints "Pugs".If the number is a multiple of both 3 and 5, it prints "JugsMugs".also if number contains 3 and 5, it prints "JugsMugs"If the number is a multiple of both 3 and 7, it prints "JugsPugs".also if number contains 3 and 7, it prints "JugsPugs"If the number is a multiple of 3, 5 and 7, it prints "JugsMugsPugs".also if number contains 3, 5 and 7, it prints "JugsMugsPugs"Otherwise, it prints the number.](day024.md)
 
